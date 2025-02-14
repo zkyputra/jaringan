@@ -1,0 +1,41 @@
+1. Perangkat Keras (Hardware)
+Perangkat yang dibutuhkan untuk membangun jaringan di ruang server dan ruang produksi:
+
+a. Ruang Server (1 server, 1 modem, 1 router)
+Server (Spesifikasi: Processor Xeon/i7, RAM 16GB, HDD 2TB/SSD 512GB, NIC 2 port)
+Router (Misal: MikroTik RB750GR3 atau Cisco 1841)
+Modem (Untuk koneksi internet, misal: Huawei HG8245H)
+Switch (opsional) untuk distribusi jaringan jika diperlukan
+UPS (Uninterruptible Power Supply) untuk cadangan daya
+Rak Server untuk penempatan perangkat jaringan
+b. Ruang Produksi (1 PC server lokal, 15 PC Desktop, 4 Laptop, 1 Printer)
+PC Desktop (Minimal Core i5, RAM 8GB, SSD 256GB, NIC 1Gbps) – 15 unit
+Laptop (Minimal Core i5, RAM 8GB, SSD 256GB, WiFi) – 4 unit
+Printer Jaringan (Misal: HP LaserJet Pro MFP M227fdw) – 1 unit
+Access Point (AP) untuk jaringan WiFi (Misal: TP-Link EAP225 atau Ubiquiti UniFi AP)
+
+2. Perangkat Lunak (Software)
+Sistem Operasi:
+Windows Server 2019/Linux Ubuntu Server (untuk server)
+Windows 10/11 Pro atau Linux Ubuntu (untuk PC & Laptop)
+Aplikasi Jaringan & Manajemen:
+WinBox (untuk konfigurasi MikroTik)
+Putty (untuk SSH ke server)
+Remote Desktop (RDP) atau VNC untuk akses jarak jauh
+Firewall & Antivirus (contoh: FortiGate, Sophos, ESET)
+Software Monitoring Jaringan (contoh: PRTG Network Monitor, Wireshark)
+Aplikasi Produktivitas:
+
+Microsoft Office/LibreOffice
+Software Desain (jika dibutuhkan, misal: AutoCAD, Adobe Photoshop)
+Aplikasi ERP atau manajemen produksi (jika ada kebutuhan khusus)
+
+3. Media Transmisi (Transmission Media)
+Untuk menghubungkan perangkat dalam jaringan lokal menggunakan kabel dan nirkabel:
+Kabel UTP Cat 6 (Untuk koneksi kabel antara PC, switch, router)
+RJ45 Connector (Konektor untuk kabel UTP)
+Keystone Jack & Patch Panel (Untuk manajemen kabel di ruang server)
+Fiber Optic (opsional) (Jika ada kebutuhan koneksi cepat ke perangkat lain)
+Access Point (Untuk jaringan nirkabel di ruang produksi)
+Wireless Adapter (Jika PC tidak memiliki WiFi bawaan)
+Switch Gigabit (Jika diperlukan untuk koneksi lebih banyak perangkat)
